@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D181ED382BFC46C90094AA96 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D181ED372BFC46C90094AA96 /* MusicViewController.swift */; };
+		D186E9452BFC6EE600B95F08 /* BaeMinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D186E9442BFC6EE600B95F08 /* BaeMinViewController.swift */; };
 		D1C76B082BFC1F16005704CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C76B072BFC1F16005704CD /* AppDelegate.swift */; };
 		D1C76B0A2BFC1F16005704CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C76B092BFC1F16005704CD /* SceneDelegate.swift */; };
 		D1C76B0C2BFC1F16005704CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C76B0B2BFC1F16005704CD /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D181ED372BFC46C90094AA96 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		D186E9442BFC6EE600B95F08 /* BaeMinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaeMinViewController.swift; sourceTree = "<group>"; };
 		D1C76B042BFC1F16005704CD /* AutoLayoutPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C76B072BFC1F16005704CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1C76B092BFC1F16005704CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				D1C76B072BFC1F16005704CD /* AppDelegate.swift */,
 				D1C76B092BFC1F16005704CD /* SceneDelegate.swift */,
 				D1C76B0B2BFC1F16005704CD /* ViewController.swift */,
+				D181ED372BFC46C90094AA96 /* MusicViewController.swift */,
+				D186E9442BFC6EE600B95F08 /* BaeMinViewController.swift */,
 				D1C76B0D2BFC1F16005704CD /* Main.storyboard */,
 				D1C76B102BFC1F17005704CD /* Assets.xcassets */,
 				D1C76B122BFC1F17005704CD /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D181ED382BFC46C90094AA96 /* MusicViewController.swift in Sources */,
 				D1C76B0C2BFC1F16005704CD /* ViewController.swift in Sources */,
 				D1C76B082BFC1F16005704CD /* AppDelegate.swift in Sources */,
 				D1C76B0A2BFC1F16005704CD /* SceneDelegate.swift in Sources */,
+				D186E9452BFC6EE600B95F08 /* BaeMinViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +315,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Jo.AutoLayoutPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,6 +339,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +347,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Jo.AutoLayoutPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
